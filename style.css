@@ -1,0 +1,18 @@
+/* Daystone: gizlilik ve destek sayfaları. Uygulamanın gündüz tonları; dışarıdan hiçbir şey yüklenmez. */
+:root { --wall: #DADDD5; --table: #C6C9BF; --ink: #1F2125; --soft: #4E5258; --ember: #A9452F; --paper: #F2F0EA; }
+* { box-sizing: border-box; }
+html { background: var(--wall); }
+body { margin: 0; color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 36rem; margin: 0 auto; padding: 4rem 1.25rem 5rem; }
+h1, h2 { font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
+h1 { font-size: 2.2rem; line-height: 1.15; margin: 0 0 0.4rem; }
+h2 { font-size: 1.3rem; margin: 2.2rem 0 0.4rem; }
+p, li { margin: 0.4rem 0; }
+.kicker { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--soft); margin-bottom: 1.6rem; }
+.lead { font-family: "Iowan Old Style", Palatino, Georgia, serif; font-size: 1.25rem; color: var(--ink); }
+.meta { color: var(--soft); font-size: 0.9rem; }
+a { color: var(--ink); text-decoration-color: var(--soft); text-underline-offset: 3px; }
+nav a { display: inline-block; margin-right: 1.5rem; font-weight: 500; }
+dl dt { font-weight: 600; margin-top: 1.4rem; }
+dl dd { margin: 0.3rem 0 0; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--table); color: var(--soft); font-size: 0.85rem; }
