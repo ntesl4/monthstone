@@ -1,4 +1,4 @@
-/* Daystone: gizlilik ve destek sayfaları. Uygulamanın gündüz tonları; dışarıdan hiçbir şey yüklenmez. */
+/* Monthstone: gizlilik ve destek sayfaları. Uygulamanın gündüz tonları; dışarıdan hiçbir şey yüklenmez. */
 :root { --wall: #DADDD5; --table: #C6C9BF; --ink: #1F2125; --soft: #4E5258; --ember: #A9452F; --paper: #F2F0EA; }
 * { box-sizing: border-box; }
 html { background: var(--wall); }
